@@ -1,35 +1,70 @@
-# AEW - Alexander Engineering Wiki
+AEW — Alexander Engineering Wiki
 
-AEW es una wiki de ingeniería personal desarrollada con:
+AEW (Alexander Engineering Wiki) es una wiki personal de ingeniería desarrollada para centralizar conocimiento técnico, documentación, experimentos, proyectos, notas de estudio y registros de depuración.
 
-- Next.js
-- TypeScript
-- Supabase
-- Vercel
+Tecnologías
 
-## Objetivo
+* Next.js
+* React
+* TypeScript
+* Supabase
+* Vercel
+* Tailwind CSS
 
-Crear una wiki técnica personal con sincronización entre dispositivos, almacenamiento remoto y funcionamiento local-first.
+Características actuales
 
-## Estado actual
+* Autenticación de usuarios
+* Persistencia local
+* Sincronización remota mediante Supabase
+* Realtime entre dispositivos
+* Sistema de categorías
+* Gestión de secciones
+* Edición de contenido
+* Dashboard principal
+* Historial de desarrollo
+* Soporte para múltiples dispositivos
 
-### Funciona
+Estado del proyecto
 
-- Login
-- Persistencia local
-- Supabase
-- Realtime
-- Sincronización básica
+El proyecto se encuentra en desarrollo activo.
 
-### Bugs conocidos
+Actualmente:
 
-- En producción (Vercel) existen inconsistencias al refrescar la página.
-- Algunos estados aparecen/desaparecen después de múltiples refresh.
-- Localhost funciona correctamente.
-- La sincronización entre dispositivos aún requiere estabilización.
+* Funciona correctamente en localhost.
+* La sincronización básica entre dispositivos está implementada.
+* Persisten problemas de sincronización y refresco en producción (Vercel).
+* Se están investigando condiciones de carrera relacionadas con React, Realtime y el proceso de hidratación del estado.
 
-## Cómo ejecutar
+Problemas conocidos
 
-```bash
-npm install
-npm run dev
+Bug principal
+
+En producción pueden ocurrir inconsistencias donde:
+
+* Los documentos aparecen y desaparecen después de múltiples refresh.
+* Algunos cambios requieren refrescar la página para reflejarse.
+* El comportamiento no se reproduce en localhost.
+
+Objetivo
+
+Convertir AEW en una plataforma de documentación técnica robusta, local-first y preparada para crecimiento futuro.
+
+Uso de Inteligencia Artificial
+
+Este proyecto fue desarrollado por Alexander con asistencia de herramientas de Inteligencia Artificial como ChatGPT, Claude y Gemini.
+
+La IA fue utilizada como herramienta de apoyo para:
+
+* Arquitectura de software
+* Revisión de código
+* Depuración
+* Generación de propuestas técnicas
+* Documentación
+
+Todas las decisiones de diseño, pruebas, implementación, integración y validación final fueron realizadas por el autor del proyecto.
+
+Contribuciones
+
+Las contribuciones son bienvenidas.
+
+Si encuentras errores, tienes sugerencias o deseas colaborar en la estabilización del sistema de sincronización, abre un Issue o Pull Request.
