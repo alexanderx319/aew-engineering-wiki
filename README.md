@@ -68,3 +68,14 @@ Contribuciones
 Las contribuciones son bienvenidas.
 
 Si encuentras errores, tienes sugerencias o deseas colaborar en la estabilización del sistema de sincronización, abre un Issue o Pull Request.
+## AI Disclosure
+
+This project was developed by Alexander with assistance from AI tools including ChatGPT, Claude and Gemini.
+
+AI was used for:
+- Architecture discussions
+- Debugging assistance
+- Code reviews
+- Documentation
+
+Final implementation, testing, integration and project decisions were performed by the project author.
